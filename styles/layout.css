@@ -48,3 +48,10 @@ aside {
     }
   }
 }
+
+form {
+  & .textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
