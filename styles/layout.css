@@ -32,6 +32,10 @@ aside {
   padding: 4rem;
   background-color: var(--surface-secundary);
 
+  & span {
+    color: var(--text-highlight);
+  }
+
   & .aside-container {
     max-width: 31rem;
 
@@ -46,12 +50,5 @@ aside {
     & span {
       color: var(texte-hightlight);
     }
-  }
-}
-
-form {
-  & .textarea-wrapper {
-    display: flex;
-    flex-direction: column;
   }
 }
